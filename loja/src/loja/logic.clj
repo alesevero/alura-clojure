@@ -1,5 +1,4 @@
-(ns loja.logic
-  (:require [loja.db :as l.db]))
+(ns loja.logic)
 
 (defn total-do-item
   [[_ detalhes]]
