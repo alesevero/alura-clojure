@@ -21,9 +21,11 @@
 
 
 ; range creates a lazy evaluated sequence of values
-(let [sequencia (range 1000000000000)]
+(let [sequencia (range 1000000000000000000000000000)]
   (println (take 2 sequencia))
-  (println (take 10 sequencia)))
+  (println (take 10 sequencia))
+  (println (take 50 sequencia))
+  (println (take 100 sequencia)))
 
 ; lazyness and eagerness
 (defn filtro1

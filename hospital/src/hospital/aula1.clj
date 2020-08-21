@@ -1,4 +1,4 @@
-(ns hospital.core
+(ns hospital.aula1
   (:require [hospital.model :as h.model]
             [hospital.logic :as h.logic])
   (:use [clojure pprint]))
